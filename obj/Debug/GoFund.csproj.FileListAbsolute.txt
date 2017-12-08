@@ -9,3 +9,6 @@ C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFun
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFund\obj\Debug\GoFund.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFund\obj\Debug\GoFund.exe
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFund\obj\Debug\GoFund.pdb
+E:\CodeRepo\GoFund\GoFund\bin\Debug\GoFund.exe.config
+E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.exe
+E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.pdb
