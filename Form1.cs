@@ -17,6 +17,7 @@ namespace GoFund
     {
 
         HtmlAgilityPack.HtmlWeb web = new HtmlAgilityPack.HtmlWeb();
+
         
 
         List<Fund> myList = new List<Fund>();
@@ -41,7 +42,7 @@ namespace GoFund
                     line = line.Trim();
                     if (line == "") continue;
                     subline = line.Split(',');
-                    myList.Add(new Fund() { Id = subline[0], Name = subline[1], Has = (subline[2] == "y") ? "持有" : "未持有" });
+                    myList.Add(new Fund() { Id = subline[0], Name = subline[1], Has = (subline[2] == "y") ? " 持有" : " 未持有" });
                 }
 
                 sr.Close();
@@ -60,24 +61,29 @@ namespace GoFund
         {
             try
             {
-
+                web.CacheOnly = false;
+                web.CachePath = null;
+                web.UsingCache = false;
+                
 
                 //获取估值
                 foreach (Fund objFund in myList)
                 {
-                    web.CacheOnly = false;
-                    web.CachePath = null;
-                    HtmlAgilityPack.HtmlDocument doc = web.Load(sPage + objFund.Id + ".html");
+
+                    HtmlAgilityPack.HtmlDocument doc = web.Load(sPage + objFund.Id + ".html"); // HtmlDocument 类，负责操作html文档
+                    HtmlNode ranking = doc.DocumentNode.SelectSingleNode("//div[@class='Rdata']"); // 近一周同类排名
                     
-                    var rate = doc.GetElementbyId("gz_gszzl").InnerHtml;
+                    
+                    var rate = doc.GetElementbyId("gz_gszzl").InnerText;
                     if (rate.Contains("+") == true)
                     {
                         rate = "<font color=\"red\">" + rate + "</font>";
                     }                                          
 
                     var date = doc.GetElementbyId("gz_gztime").InnerHtml;
-                    if ((rate == "--") || (date == "--")) continue;
-                    sContent = sContent + "基金：" + objFund.Id + " " + "<a href=\"" + sPage + objFund.Id + ".html\" target=\"_blank\">" + objFund.Name + "</a>" + "\t" + "估算涨幅：" + rate + "\t" + " 最后更新时间：" + date + "\t" + objFund.Has + "<br>";
+                    if (rate == "--")  rate = "0.00%";
+                    if (date == "--") date = "暂无";
+                    sContent = sContent + objFund.Id + " " + "<a href=\"" + sPage + objFund.Id + ".html\" target=\"_blank\">" + objFund.Name + "</a>" + "\t" + "估算涨幅：" + rate + "\t" + " 更新时间：" + date + "\t"  + "近一周排名："+ ranking.InnerText + objFund.Has + "<br>";
 
                 }
             }

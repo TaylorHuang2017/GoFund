@@ -9,3 +9,14 @@ C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFun
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFund\obj\Release\GoFund.csproj.GenerateResource.Cache
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFund\obj\Release\GoFund.exe
 C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFund\obj\Release\GoFund.pdb
+E:\CodeRepo\GoFund\GoFund\bin\Release\GoFund.exe.config
+E:\CodeRepo\GoFund\GoFund\obj\Release\GoFund.exe
+E:\CodeRepo\GoFund\GoFund\obj\Release\GoFund.pdb
+E:\CodeRepo\GoFund\GoFund\bin\Release\GoFund.exe
+E:\CodeRepo\GoFund\GoFund\bin\Release\GoFund.pdb
+E:\CodeRepo\GoFund\GoFund\bin\Release\HtmlAgilityPack.pdb
+E:\CodeRepo\GoFund\GoFund\bin\Release\HtmlAgilityPack.xml
+E:\CodeRepo\GoFund\GoFund\obj\Release\GoFund.csprojResolveAssemblyReference.cache
+E:\CodeRepo\GoFund\GoFund\obj\Release\GoFund.Form1.resources
+E:\CodeRepo\GoFund\GoFund\obj\Release\GoFund.Properties.Resources.resources
+E:\CodeRepo\GoFund\GoFund\obj\Release\GoFund.csproj.GenerateResource.Cache

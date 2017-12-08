@@ -12,3 +12,11 @@ C:\Users\Administrator\Documents\Visual Studio 2015\Projects\GoFund\GoFund\GoFun
 E:\CodeRepo\GoFund\GoFund\bin\Debug\GoFund.exe.config
 E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.exe
 E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.pdb
+E:\CodeRepo\GoFund\GoFund\bin\Debug\GoFund.exe
+E:\CodeRepo\GoFund\GoFund\bin\Debug\GoFund.pdb
+E:\CodeRepo\GoFund\GoFund\bin\Debug\HtmlAgilityPack.pdb
+E:\CodeRepo\GoFund\GoFund\bin\Debug\HtmlAgilityPack.xml
+E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.csprojResolveAssemblyReference.cache
+E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.Form1.resources
+E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.Properties.Resources.resources
+E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.csproj.GenerateResource.Cache
