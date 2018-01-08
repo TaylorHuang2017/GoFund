@@ -34,7 +34,7 @@ namespace GoFund
             try
             {
                 //读取基金资料
-                FileStream fs = new FileStream("AllFunds.txt", FileMode.Open);
+                FileStream fs = new FileStream(@"D:\CodeRepo\GoFund\GoFund\bin\Release\AllFunds.txt", FileMode.Open);
                 StreamReader sr = new StreamReader(fs);
 
                 while ((line = sr.ReadLine()) != null)

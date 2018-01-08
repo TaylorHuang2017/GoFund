@@ -20,3 +20,14 @@ E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.csprojResolveAssemblyReference.cache
 E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.Form1.resources
 E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.Properties.Resources.resources
 E:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.csproj.GenerateResource.Cache
+D:\CodeRepo\GoFund\GoFund\bin\Debug\GoFund.exe.config
+D:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.exe
+D:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.pdb
+D:\CodeRepo\GoFund\GoFund\bin\Debug\GoFund.exe
+D:\CodeRepo\GoFund\GoFund\bin\Debug\GoFund.pdb
+D:\CodeRepo\GoFund\GoFund\bin\Debug\HtmlAgilityPack.pdb
+D:\CodeRepo\GoFund\GoFund\bin\Debug\HtmlAgilityPack.xml
+D:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.csprojResolveAssemblyReference.cache
+D:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.Form1.resources
+D:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.Properties.Resources.resources
+D:\CodeRepo\GoFund\GoFund\obj\Debug\GoFund.csproj.GenerateResource.Cache

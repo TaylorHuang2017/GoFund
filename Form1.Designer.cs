@@ -48,7 +48,7 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 120000;
+            this.timer1.Interval = 300000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // webBrowser1
