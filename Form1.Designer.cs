@@ -33,6 +33,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.SuspendLayout();
             // 
             // button1
@@ -59,6 +60,11 @@
             this.webBrowser1.Size = new System.Drawing.Size(802, 314);
             this.webBrowser1.TabIndex = 2;
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -78,6 +84,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.WebBrowser webBrowser1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }
 
