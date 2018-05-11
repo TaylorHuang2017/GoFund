@@ -5,4 +5,4 @@ This winform app is used to track the funds I'm interested in.
 严格遵循涨时卖，跌时买的规则
 基金名单请编辑allfunds.txt，每只基金一行，格式为：基金代码，基金名称，是否持有（yes or no）
 
-![avata]https://raw.githubusercontent.com/TaylorHuang2017/GoFund/master/images/GoFundScreenshot.jpg
+![avata](/images/GoFundScreenshot.jpg)
